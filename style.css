@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.box {
+  width: 160px;
+  height: 160px;
+
+}
+
+.box-1 {
+  background: orange;
+}
+
+.box-2 {
+  background: skyblue;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+
+.box-3 {
+  background: pink;
+  position: absolute;
+  top: 64px;
+  left: 64px;
+}
+
+.first h1 {
+  font-size: 80px;
+  position: absolute;
+  top: 28px;
+  left: 210px;
+  color: lightslategray;
+}
+
+.first p {
+  margin: 0 auto;
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  font-weight: bold;
+  background: lightgray;
+  box-shadow: 4px 4px 4px gray;
+}
+
+.img-1 {
+  display: flex;
+  margin: auto;
+  object-fit: cover;
+  opacity: .8;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.second h1 {
+  margin: 48px 0 16px 16px;
+  border-bottom: 1px solid black;
+  width: 360px;
+}
+
+.second p {
+  font-size: 20px;
+  margin: 16px;
+}
+
+a {
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 20px;
+  color: inherit;
+}
+
+span {
+  color: red;
+}
+
+table {
+  margin: 160px auto;
+  width: 640px;
+  height: 200px;
+}
+
+th {
+  background: skyblue;
+  font-size: large;
+}
+
+td {
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  border: 1px solid black;
+  display: flex;
+  margin: 160px;
+  height: 120px;
+}
+
+.flex-1 {
+  width: 40px;
+  height: 40px;
+  background: skyblue;
+}
+
+.flex-2 {
+  width: 40px;
+  height: 40px;
+  background: orange;
+  align-self: center;
+}
+
+.flex-3 {
+  width: 40px;
+  height: 40px;
+  background: pink;
+  align-self: flex-end;
+}
+
+.flex-4 {
+  margin: auto;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+footer {
+  border-top: 1px solid gray;
+}
+
+footer > p {
+  margin: 32px 0 32px 16px;
+  font-weight: bold;
+}
+
+input,
+button {
+  display: inline-block;
+ 
+}
+
+input:forcus {
+  border: 2px solid black;
+}
+
+button:hover {
+  font-weight: bold;
+}
